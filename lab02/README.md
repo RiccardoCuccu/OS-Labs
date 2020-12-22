@@ -9,7 +9,7 @@ The child process must print its PID, whereas the parent process must print both
 Write a C program that creates 3 processes as the following model.
 
 <p align="center">
-  <img src="./fig/model_ex02.png" width="70%">
+  <img src="./fig/model_ex02.png" width="50%">
 </p>
 
 
@@ -17,5 +17,5 @@ Write a C program that creates 3 processes as the following model.
 Write a C program that creates 3 processes as the following model.
 
 <p align="center">
-  <img src="./fig/model_ex03.png" width="70%">
+  <img src="./fig/model_ex03.png" width="50%">
 </p>
