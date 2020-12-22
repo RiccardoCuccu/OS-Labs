@@ -1,11 +1,11 @@
 # OS Lab 01
-Laboratory 01 of the Operating Systems course of the master degree in Embedded System (Electronic Engineering) of Politecnico di Torino, academic year 2020/2021.<br/>
+Laboratory 01 of the Operating Systems course of the master degree in Embedded System (Electronic Engineering) of Politecnico di Torino, academic year 2019/2020.<br/>
 
 ## Exercise 1
 Create the following directory tree in your home using UNIX/Linux commands.
 
 <p align="center">
-  <img src="./fig/tree.png" width="70%">
+  <img src="./fig/tree.png" width="80%">
 </p>
 
 ## Exercise 2
