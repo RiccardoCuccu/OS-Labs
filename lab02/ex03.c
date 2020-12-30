@@ -13,7 +13,7 @@ int main() {
 	for(i = 1; i <= CHILD; i++){
 		pid = fork();
 		if (pid < 0) {
-			printf("ERROR!");
+			printf("ERROR during fork() execution!\n");
 			exit(-1);
 		}
 		else if (pid == 0) {

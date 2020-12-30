@@ -8,7 +8,7 @@ int main() {
 	pid = fork();
 
 	if (pid < 0) {			/* error case */
-		printf("Fork failed");
+		printf("ERROR during fork() execution!\n");
 	} else {
 		if (pid == 0) {		/* child process */
 			printf("I'm the child, my PID is %d. The father PID is %d.\n", getpid(), getppid());
