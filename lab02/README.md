@@ -1,4 +1,4 @@
-# OS Lab 02
+# OS Lab 02 - `fork()` - March 31th 2020
 Laboratory 02 of the Operating Systems course of the master degree in Embedded System (Electronic Engineering) of Politecnico di Torino, academic year 2019/2020.<br/>
 
 ## Exercise 1
