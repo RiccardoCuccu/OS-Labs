@@ -1,9 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-//#include <unistd.h>
-//#include <time.h>
-//#include <sys/types.h>
-//#include <sys/wait.h>
 #include <errno.h>
 
 int main (int argc, char* argv[]) {
@@ -15,11 +11,11 @@ int main (int argc, char* argv[]) {
 	
 	FILE *f;
 
-	i=0;
-	average=0;
+	i = 0;
+	average = 0;
 
 	if (argc == 2) {
-		f=fopen(argv[1], "r");
+		f = fopen(argv[1], "r");
 
 		if (f == NULL) {
 			perror("ERROR during FOPEN execution: ");
@@ -32,7 +28,7 @@ int main (int argc, char* argv[]) {
 		}
 
 		printf("The average is %d\n", average/i);
-		exit (0);
+		exit(0);
 	} else {
 		printf("USAGE: ./average <path>\n");
 	}
