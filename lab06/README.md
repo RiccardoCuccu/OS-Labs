@@ -12,9 +12,9 @@ Let the user specify the number P of threads.<br/>
 At the end of the execution the program must print the start and the end positions of the genome subsequences that match with the searched sequence.
 
 As example, look at following files:
-| Full Genome                                         | Sequence File |
-|:-----------------------------------------------------:|:-------------:|
-| CACCATAAAACCGTGTGGGACCTACAGGCAGCAACCTCTGGAGC <br/>TACATCACGGATTTTACCCATCCATCCAGGGGGGCGGCGGATTT <br/>TTTTTTTTTTTAACGGTATAAAACGGAGAGGGAGACACGTACCC <br/>ATAACTCACCACACCCTCTGGAGCTAGAGCAGATTTACGATCGG | TACCCAT   |
+| Full Genome                                     | Sequence File |
+|:-----------------------------------------------:|:-------------:|
+| CACCATAAAACCGTGTGGGACCTACAGGCAGCAACCTCTGGAGC <br/>TACATCACGGATTTTACCCATCCATCCAGGGGGGCGGCGGATTT <br/>TTTTTTTTTTTAACGGTATAAAACGGAGAGGGAGACACGTACCC <br/>ATAACTCACCACACCCTCTGGAGCTAGAGCAGATTTACGATCGG | TACCCAT       |
 
 The program must report:
 1. 59 – 66
