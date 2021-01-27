@@ -18,7 +18,6 @@ struct data {								// Structure with left and right index
 	int right;
 };
 
-
 void *search(void *args) {
 	struct data *p = (struct data*) args;
 	int i, j;
@@ -55,7 +54,8 @@ void *search(void *args) {
 			pthread_mutex_unlock(&mtx);
 		}
 
-		flag = 0;
+		flag = 0;						// Reset the flag
+		approx_counter = 0;					// Reset the approximation counter
 	}
 
 	pthread_exit(0);
